@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+}
+
+div{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+h1, h2, h3{
+	font-family: "Kaushan Script";
+}
+
+div h1{
+	text-align: center;
+	font-family: "Kaushan Script";
+}
+
+div a{
+	margin: 20px;
+	font-family: "Oswald";
+	text-decoration: none;
+}
+
+div p{
+	font-family: "Oswald";
+}
+div img{
+	width: 100%;
+}
+
+.hide{
+	display: none;
+}
+
+div.pop-up{
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -150px; 
+	padding: 20px;
+	background: #fff;
+	border: 1px solid black;
+	width: 300px;
+}
+
+button {
+	font-size: 30px;
+}
+
+button i{
+	pointer-events: none;
+}
+
+
+ul li {
+	list-style: none;
+	float: left;
+	margin-right: 20px; 
+}
+
+ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.overlay{
+	position: fixed;
+	background-color: rgba(50,50,50,0.5);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
